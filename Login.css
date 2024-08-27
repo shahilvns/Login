@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(pexels-pixabay-268533.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.wrapper{
+    width: 470px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 20px 20px;
+    border-radius:10px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px white;
+}
+.wrapper h1{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+.wrapper .input_box{
+    height: 50px;
+    width: 100%;
+    border-radius: 40px;
+    margin: 25px 5px;
+    color: white;
+}
+.wrapper .input_box input{
+    height: 50px;
+    width: 100%;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 40px;
+    color: white;
+    font-size: 18px;
+    padding-left: 10px;
+}
+.wrapper .input_box ::placeholder{
+    color: white;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.wrapper .remember_link{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.wrapper .remember_link a{
+    text-decoration: none;
+    color: white;
+}
+.wrapper .remember_link a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn{
+    font-size: 20px;
+    margin: 15px 10px 10px;
+}
+.wrapper button{
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    border-radius: 40px;
+}
+.wrapper .regestration_link{
+    color: white;
+    text-align: center;
+}
+.wrapper .regestration_link a{
+    text-decoration: none;
+    color: white;
+}
+.wrapper .regestration_link a:hover{
+    text-decoration: underline;
+}
